@@ -1,0 +1,14 @@
+<h2
+  style='text-align:center; margin-top:5vh; text-decoration:underline'
+  ;
+>Random Beers</h2>
+<ul style='margin-top: 60px;'>
+  {{#each randomBeer}}
+  {{> beerpartials}}
+
+    <li>{{food_pairing}}</li>
+
+    <li>{{brewers_tips}}</li>
+
+  {{/each}}
+</ul>
